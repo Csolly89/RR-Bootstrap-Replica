@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  display:flex;
+  justify-content:start ;
+  margin-left:10vw;
+}
+
+h2{
+  display:flex;
+  font-size: 1vw;
+  margin-left:10vw;
+}
+
+.Card {
+  background-color: rgba(175, 251, 224, 0.719);
+}
+
+.Img{
+  float: right;
+  position: relative;
+  height:100vh;
+  width:20vw;
+  object-fit: cover;
+}
