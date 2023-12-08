@@ -43,20 +43,27 @@ h1{
   margin-left:10vw;
 }
 
-h2{
-  display:flex;
+#b2{
   font-size: 1vw;
   margin-left:10vw;
+  position:fixed;
+  top:14vw;
+}
+
+#text{
+  position:fixed;
+  top:6vw;
 }
 
 .Card {
-  background-color: rgba(175, 251, 224, 0.719);
+  background-color: rgb(201, 232, 221);
+  height:40vh;
 }
 
 .Img{
   float: right;
   position: relative;
-  height:100vh;
+  height:40vh;
   width:20vw;
   object-fit: cover;
 }
